@@ -12,8 +12,6 @@ A 5-stage pipelined **RISC-V (RV32I)** processor core written in Verilog. The de
 - Pipeline flush on taken branches and jumps
 - Testbench for simulation and waveform inspection
 
-> Edit this list so it matches what your core actually implements.
-
 ## Pipeline Overview
 
 ```
@@ -44,8 +42,6 @@ A 5-stage pipelined **RISC-V (RV32I)** processor core written in Verilog. The de
 | Branch | `beq` `bne` `blt` `bge` `bltu` `bgeu`             |
 | Jump   | `jal` `jalr`                                      |
 | Upper  | `lui` `auipc`                                     |
-
-> Remove anything your core does not support.
 
 ## Repository Structure
 
